@@ -1,0 +1,53 @@
+.main{
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/* Header */
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:15px;
+}
+
+/* Boxes */
+.container{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Input section */
+.input-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input{
+    padding: 10px;
+}
+
+button{
+    padding: 10px 15px;
+
+}
