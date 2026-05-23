@@ -33,14 +33,42 @@
     align-items: center;
     font-size: 18px;
     font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Initial colors */
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+
+/* Click effect */
+.active {
+    transform: scale(1.1);
+    border: 4px solid white;
+    box-shadow: 0 0 15px black;
 }
 
 /* Input section */
-.input-section{
+.input-sections{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 input{
