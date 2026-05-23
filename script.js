@@ -11,10 +11,9 @@ button.addEventListener("click", function () {
 // Box color change functionality
 const boxes = document.querySelectorAll(".box");
 
-boxes.forEach(function (box) {
-  box.addEventListener("click", function () {
-    let colorName = box.innerText;
-
-    box.style.backgroundColor = colorName;
+boxes.forEach((box) => {
+  box.addEventListener("click", () => {
+    box.classList.toggle("active");
   });
 });
+
